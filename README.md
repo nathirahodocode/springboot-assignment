@@ -30,3 +30,17 @@ docker exec -it sql_server_test /opt/mssql-tools18/bin/sqlcmd \
 > **Note:** Replace `<YOUR_STRONG_PASSWORD>` with a password that meets
 > MSSQL's policy (min 8 chars, uppercase, lowercase, digit, symbol).
 > In production, use a secret manager — never commit credentials.
+
+## Screenshots
+
+### Swagger UI
+![Swagger UI](screenshots/swagger-overview.png)
+
+### Postman — Create User
+![Postman Create](screenshots/postman-create-user.png)
+
+### Postman — Validation
+![Postman Validation](screenshots/postman-validation.png)
+
+### Postman — Nested 3rd Party Call
+![Postman External](screenshots/postman-external-call.png)
